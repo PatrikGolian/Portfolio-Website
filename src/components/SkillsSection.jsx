@@ -74,4 +74,8 @@ export const SkillsSection = () => {
 
     </section>
 
+/*"predeploy": "npm run build", 
+    "deploy": "gh-pages -d dist" 
+      /*"homepage": "https://PatrikGolian.github.io/Portfolio-Website/",*/
+
 }
