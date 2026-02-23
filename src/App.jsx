@@ -4,14 +4,14 @@ import { NotFound } from "./pages/NotFound"
 
 
 function App() {
-
   return (
     <>
-      <BrowserRouter>
-      <Routes>
-        <Route index element={<Home />}></Route>
-        <Route path="*" element={<NotFound />}></Route>
-      </Routes>
+      {/* Add the basename here */}
+      <BrowserRouter basename="/Portfolio-Website">
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
       </BrowserRouter>
     </>
   )
